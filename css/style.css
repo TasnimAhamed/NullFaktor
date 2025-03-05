@@ -555,11 +555,18 @@ html{
     border-radius: 10px;
     color: #101010;
 }
-.contact__form input:focus{
+.contact__form textarea.form-control{
+    height: 120px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.contact__form input:focus,
+.contact__form textarea:focus{
     box-shadow: none!important;
     border: 1.5px solid #6D64F4;
 }
-.contact__form input::placeholder{
+.contact__form input::placeholder,
+.contact__form textarea::placeholder{
     color: #10101066;
 }
 .contact__form .row{

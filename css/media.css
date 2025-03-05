@@ -286,9 +286,41 @@
     }
     /* sap Section End */
 
+    /* Contact Section Start */
     .contact__section{
-        display: none;
+        padding: 40px 0;
     }
+    .contact__section-wrapper .row{
+        flex-wrap: wrap;
+    }
+    .contact__section-wrapper .col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .contact__section-heading{
+        padding-bottom: 24px;
+    }
+    .contact__form .row{
+        gap: 24px;
+    }
+    .contact__form .form-check-label{
+        max-width: calc(100% - 42px);
+    }
+    .contact__form .btn--primary{
+        max-width: 100%;
+    }
+    .contact__form .btn--primary img{
+        width: 36px;
+        height: 36px;
+    }
+    .contact__form .form-control{
+        padding: 0 20px;
+        height: 50px;    
+    }
+    .contact__form textarea.form-control{
+        height: 100px;
+    }
+    /* Contact Section End */
 
     /* Footer Section Start */
     .footer__section{
