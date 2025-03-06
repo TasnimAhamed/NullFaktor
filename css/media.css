@@ -17,8 +17,7 @@
 
     /* Header Area Start */
     .header__section{
-        padding-top: 24px;
-        padding-bottom: 0;
+        padding: 24px 0;
     }
     .navbar-toggler{
         padding: 0;
