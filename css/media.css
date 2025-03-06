@@ -91,12 +91,15 @@
     .banner__image{
         padding-bottom: 108px;
     }
+    .banner__image h1 span{
+        font-size: 64px;
+    }
     .banner__content{
         padding-bottom: 108px;
     }
     .banner--content-wrapper p{
         font-size: 20px;
-        line-height: 24px;
+        line-height: 28px;
         margin-bottom: 0;
     }
     .banner__content a{
@@ -129,8 +132,8 @@
         height: 32px;
     }
     .multi-column__section-content p{
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 12px;
+        line-height: 18px;
         max-width: calc(100% - 160px);
     }
     /* Multi Column Section End */
@@ -161,15 +164,14 @@
         border: none;
     }
     .our__services-top-content-heading{
-        padding-top: 0px;
-        padding-bottom: 24px;
         text-align: center;
+        padding: 0 16px 24px 16px;
     }
     .our__services-item-wrapper{
-        padding: 24px 24px 0px 24px;
+        padding: 24px 16px 0px 16px;
     }
     .our__services-item-overlay{
-        padding: 26px;
+        padding: 16px;
     }
     .our__services-pill {
         text-align: center;
@@ -189,8 +191,8 @@
         text-align: center;
     }
     .our__services-content-text p{
-        font-size: 13px;
-        line-height: 17px;
+        font-size: 14px;
+        line-height: 24px;
         margin-bottom: 24px;
         text-align: center;
     }
@@ -212,9 +214,9 @@
     .testimonial__section{
         padding: 40px 0;
     }
-    .testimonial__section-content {
+    .testimonial__section-content p{
         font-size: 20px;
-        line-height: 24px;
+        line-height: 32px;
     }
     .author__role{
         margin-bottom: 0;
@@ -231,7 +233,7 @@
         padding: 40px 0;
     }
     .why__us-heading{
-        margin-bottom: 48px;
+        margin-bottom: 32px;
     }
     .why__us-heading h2{
         font-size: 24px;
@@ -254,13 +256,13 @@
         max-width: 48px;
     }
     .why__us-content-top h3{
-        font-size: 17px;
-        line-height: 20.4px;
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .why__us-content p{
         font-size: 14px;
-        line-height: 20px;
+        line-height: 24px;
     }
     .why__us-description{
         display: none;
@@ -282,7 +284,7 @@
     
     .sap__heading h2{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 36px;
         text-align: center;
     }
     .sap__section-content-wrapper{
@@ -337,7 +339,7 @@
     }
     .sap__content-description p{
         font-size: 14px;
-        line-height: 20px;
+        line-height: 24px;
         text-align: center;
     }
     /* sap Section End */
@@ -355,6 +357,9 @@
     }
     .contact__section-heading{
         padding-bottom: 24px;
+    }
+    .contact__section-heading p{
+        font-size: 16px;
     }
     .contact__form .row{
         gap: 24px;
@@ -411,7 +416,7 @@
 /* Min-width 768px and Max-width 991px */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .btn--primary {
+    /* .btn--primary {
         width: fit-content;
     }
     .btn--primary img{
@@ -422,7 +427,7 @@
     }
     .btn--primary span{
         display: none;
-    }
+    } */
     /* Header Area Start */
     .header__section{
         padding: 16px 0;
@@ -434,6 +439,23 @@
         gap: 32px!important;
     }
     /* Header Area End */
+
+    /* banner Section Start */
+    .banner__section{
+        padding: 80px 0;
+    }
+    .banner__image{
+        padding-bottom: 80px;
+    }
+    .banner--content-wrapper{
+        max-width: 640px;
+    }
+    .banner--content-wrapper p{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    /* banner Section End */
 
     /* Multi Column Section Start*/
     .multi-column__section{
@@ -619,6 +641,23 @@
         gap: 32px!important;
     }
     /* Header Area End */
+
+    /* Banner Section Start */
+    .banner__section{
+        padding: 80px 0;
+    }
+    .banner__image{
+        padding-bottom: 80px;
+    }
+    .banner--content-wrapper{
+        max-width: 640px;
+    }
+    .banner--content-wrapper p{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 40px;
+    }
+    /* Banner Section End */
 
     /* Multi Column Section Start*/
     .multi-column__section{

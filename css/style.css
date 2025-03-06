@@ -79,6 +79,28 @@ html{
 .btn--primary-sm span{
     display: none;
 }
+
+/* Custom Heading*/
+.custom__heading-design span{
+    background-image: url(./../img/vector-50.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffff61;
+    background-repeat: repeat;
+    text-align: center;
+    font-family: var(--font-family);    
+    color: white;
+    max-width: fit-content;
+    margin: 0 auto;
+    text-shadow: -62px 3px 63px rgba(105, 108, 114, 0.01),
+    -82px 14px 57px rgba(105, 108, 114, 0.01),
+    -12px 0px 48px rgba(105, 108, 114, 0.04), 
+    13px 0px 36px rgba(105, 108, 114, 0.05),
+    -8px -0 20px rgba(105, 108, 114, 0.05
+    );
+    line-height: 1;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
 /* Header Area Start */
 .header__section{
     padding: 32px 0;
@@ -125,20 +147,7 @@ html{
 .language__switcher a span{
     padding-left: 8px;
 }
-.banner--message-wrapper-mobile{
-    background: #ffffff;
-    padding: 28px 16px;
-    border-radius: 10px 10px 0 0;
-}
-.banner--message-wrapper-mobile p{
-    font-family: var(--font-family);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    color: #323232;
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 @media only screen and (min-width: 768px){
     .banner--message-wrapper-mobile{
         display: none;;
@@ -198,6 +207,29 @@ html{
     font-style: italic;
     color: #323232;
     margin-bottom: 0;
+}
+.banner--message-wrapper-mobile{
+    background: #ffffff;
+    padding: 28px 16px;
+    border-radius: 10px 10px 0 0;
+}
+.banner--message-wrapper-mobile p{
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #323232;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner__image{
+    padding-bottom: 120px;
+}
+.banner__image img{
+    width: 100%;
+}
+.banner__image h1 span{
+    font-size: 312px;
 }
 /* Banner Section End */
 
@@ -546,7 +578,7 @@ html{
     background: #f8f8f8;
 }
 .contact__section-heading img{
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 .contact__section-heading p{
     font-family: var(--font-family);
