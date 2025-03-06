@@ -104,27 +104,27 @@
     /* Banner Section End */
 
     /* Multi Column Section Start */
-    .multicolumn__section{
+    .multi-column__section{
         padding: 40px 0;
     }
-    .multicolumn__section .col-12{
+    .multi-column__section .col-12{
         border-bottom: 1px solid #F7F7F7;
         padding: 18px 0;
     }
-    .multicolumn__section .col-12:first-child{
+    .multi-column__section .col-12:first-child{
         padding-top: 0;
     }
 
-    .multicolumn__section-content{
+    .multi-column__section-content{
         padding-right: 0;
         display: flex;
         justify-content: space-between;
     }
-    .multicolumn__section-content img{
+    .multi-column__section-content img{
         margin-bottom: 0;
         height: 32px;
     }
-    .multicolumn__section-content p{
+    .multi-column__section-content p{
         font-size: 11px;
         line-height: 15px;
         max-width: calc(100% - 160px);
@@ -132,9 +132,6 @@
     /* Multi Column Section End */
 
     /*Our Services Section Start*/
-    .our__services-section{
-        
-    }
     .our__services-section .container--xl{
         padding: 0;
     }
@@ -397,6 +394,13 @@
     }
     .footer__copyright-area p{
         font-size: 11px;
+    }
+    .footer__menu-area-wrapper .row{
+        row-gap: 24px;
+    }
+    .footer__menu-area-wrapper .row .col{
+        max-width: 50%;
+        flex-basis: 50%;
     }
     /* Footer Section End */
 }

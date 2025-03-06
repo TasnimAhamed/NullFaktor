@@ -197,22 +197,22 @@ html{
 /* Banner Section End */
 
 /* Multi-Column Section Start*/
-.multicolumn__section{
+.multi-column__section{
     padding: 80px 0;
 }
-.multicolumn__section-content{
+.multi-column__section-content{
     width: 100%;
     max-width: 348px;
     padding-right: 12px;
 }
-.multicolumn__section-content img{
+.multi-column__section-content img{
     width: 100%;
     max-width: fit-content;
     height: 41px;
     margin-bottom: 16px;
     object-fit: contain;
 }
-.multicolumn__section-content p{
+.multi-column__section-content p{
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
@@ -604,13 +604,6 @@ html{
 }
 .footer__logo-area{
     padding-bottom: 120px;
-}
-.footer__menu-area-wrapper .row{
-    row-gap: 24px;
-}
-.footer__menu-area-wrapper .row .col{
-    max-width: 50%;
-    flex-basis: 50%;
 }
 .footer__menu-area h3{
     font-family: var(--font-family);
