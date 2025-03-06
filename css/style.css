@@ -501,6 +501,7 @@ html{
     font-size: 36px;
     line-height: 38px;
     color: #313131;
+    margin: 0;
 }
 .sap__heading h2 span{
     font-weight: 400;
@@ -574,7 +575,7 @@ html{
 
 /* Contact Section Start */
 .contact__section{
-    padding: 160px 0;
+    padding: 120px 0;
     background: #f8f8f8;
 }
 .contact__section-heading img{
@@ -633,6 +634,7 @@ html{
     font-weight: 400;
     line-height: 20px;
     color: #9c9c9c;
+    max-width: calc(100% - 42px);
 }
 .contact__form .form-check-label a{
     text-decoration: underline;

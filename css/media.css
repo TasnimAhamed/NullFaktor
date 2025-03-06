@@ -364,9 +364,7 @@
     .contact__form .row{
         gap: 24px;
     }
-    .contact__form .form-check-label{
-        max-width: calc(100% - 42px);
-    }
+    
     .contact__form .btn--primary{
         max-width: 100%;
     }
@@ -416,18 +414,10 @@
 /* Min-width 768px and Max-width 991px */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* .btn--primary {
-        width: fit-content;
-    }
+
     .btn--primary img{
-        width: 100%;
-        max-width: 32px;
-        height: 100%;
-        aspect-ratio: 1/1;
+        max-width: 40px;
     }
-    .btn--primary span{
-        display: none;
-    } */
     /* Header Area Start */
     .header__section{
         padding: 16px 0;
@@ -491,6 +481,11 @@
     }
     .our__services-content-text p{
         font-size: 14px;
+        line-height: 24px;
+    }
+    .our__services-top-content.row,
+    .our__services-bottom-content.row{
+        margin: 0;
     }
     .our__services-section .ellipse-7{
         top: -40px;
@@ -518,7 +513,7 @@
         padding: 64px 0;
     }
     .why__us-heading{
-        margin-bottom: 48px;
+        margin-bottom: 40px;
     }
     .why__us-heading h2{
         font-size: 36px;
@@ -540,13 +535,14 @@
     }
     .why__us-content p{
         font-size: 14px;
-        line-height: 28px;
+        line-height: 26px;
     }
     .why__us-section-content{
         margin-bottom: 32px;
     }
     .why__us-description p {
         font-size: 16px;
+        line-height: 28px;
     }
     /* Why Us Section */
 
@@ -557,7 +553,7 @@
     }
     .sap__heading{
         text-align: center;
-        margin: 0 auto 28px auto
+        margin: 0 auto 40px auto
     }
     .sap__heading h2{
         font-size: 28px;
@@ -565,18 +561,18 @@
     }
     .sap__content-description p{
         font-size: 14px;
-        line-height: 28px;    
+        line-height: 24px;    
     }
     .sap__section-content-wrapper .d-flex{
         flex-wrap: wrap;
         border: none!important;
         background: #F8F8F8;
         border-radius: 12px;
-        gap: 24px;
-        padding-bottom: 24px;
+        gap: 16px;
+        padding-bottom: 16px;
     }
     .sap__section-content-wrapper .d-flex:first-child{
-        padding-top: 24px;
+        padding-top: 16px;
     }
     .sap__section-content-wrapper .d-flex:last-child{
         flex-direction: column-reverse;
@@ -588,7 +584,7 @@
     }
     .sap__section-content-wrapper .sap__section-content-col,
     .sap__section-content-overlay-text{
-        padding: 0 24px;
+        padding: 0 16px;
     }
     .sap__content-heading{
         margin-bottom: 16px;
@@ -601,6 +597,30 @@
         font-size: 40px;
     }
     /* SAP Section End */
+
+    /* Contact Section Start */
+    .contact__section{
+        padding: 64px 0;
+    }
+    .contact__section-heading p{
+        font-size: 16px;
+    }
+    .contact__form .form-control{
+        padding: 0 12px;
+        height: 48px;
+    }
+    .contact__form textarea.form-control{
+        height: 96px;
+    }
+    .contact__form .btn--primary {
+        max-width: 100%;
+        margin-top: 24px;
+    }
+    .btn--primary span {
+        padding-left: 16px;
+        width: 100%;
+    }
+    /* Contact Section End */
 
     /*Footer Area Start */
     .footer__section{
@@ -621,9 +641,9 @@
     /*Footer Area End */
 }
 
-/* Min-width 1024px and Max-width 1200px */
+/* Min-width 992px and Max-width 1199px */
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
     .btn--primary img{
         width: 48px;
@@ -682,6 +702,10 @@
         font-size: 24px;
         line-height: 32px;
     }
+    .our__services-top-content.row,
+    .our__services-bottom-content.row{
+        margin: 0;
+    }
     .our__services-content{
         padding-top: 96px;
     }
@@ -718,7 +742,7 @@
         padding: 80px 0;
     }
     .why__us-heading{
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
     .why__us-heading h2{
         font-size: 36px;
@@ -740,7 +764,7 @@
     }
     .why__us-content p{
         font-size: 14px;
-        line-height: 28px;
+        line-height: 24px;
     }
     .why__us-section-content{
         margin-bottom: 32px;
@@ -757,7 +781,7 @@
     }
     .sap__heading{
         text-align: center;
-        margin: 0 auto 28px auto
+        margin: 0 auto 40px auto
     }
     .sap__heading h2{
         font-size: 28px;
@@ -765,7 +789,7 @@
     }
     .sap__content-description p{
         font-size: 14px;
-        line-height: 28px;    
+        line-height: 24px;    
     }
     .sap__section-content-wrapper .sap__section-content-col,
     .sap__section-content-overlay-text{
@@ -782,6 +806,30 @@
         font-size: 40px;
     }
     /* SAP Section End */
+
+    /* Contact Section Start */
+    .contact__section{
+        padding: 64px 0;
+    }
+    .contact__section-heading p{
+        font-size: 16px;
+    }
+    .contact__form .form-control{
+        padding: 0 12px;
+        height: 48px;
+    }
+    .contact__form textarea.form-control{
+        height: 96px;
+    }
+    .contact__form .btn--primary {
+        max-width: 100%;
+        margin-top: 24px;
+    }
+    .btn--primary span {
+        padding-left: 16px;
+        width: 100%;
+    }
+    /* Contact Section End */
 
     /*Footer Area Start */
     .footer__section{
@@ -800,4 +848,29 @@
         line-height: 28px;
     }
     /*Footer Area End */
+}
+
+/* Min-width 1200px and Max-width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* Service Section Start */
+    .our__services-top-content-heading{
+        padding: 24px;
+    }
+    .our__services-top-content.row,
+    .our__services-bottom-content.row{
+        margin: 0;
+    }
+    /* Service Section End */
+
+    /* Contact Section Start */
+    
+    .contact__form .btn--primary {
+        max-width: 100%;
+        margin-top: 24px;
+    }
+    .btn--primary span {
+        padding-left: 16px;
+        width: 100%;
+    }
+    /* Contact Section End */
 }
