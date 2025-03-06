@@ -1,24 +1,6 @@
-/* Max-width 768px */
 
-@media only screen and (max-width: 768px){
-
-    .btn--primary-large{
-        width: 100%;
-        max-width: 100%;
-    }
-    .btn--primary-large span{
-        padding-left: 0;
-        text-align: center;
-    }
-    .btn--primary-large img{
-        width: 36px;
-        height: 36px;
-    }    
-
-    /* Header Area Start */
-    .header__section{
-        padding: 24px 0;
-    }
+/* Max width 1023 for Drawer Menu*/
+@media only screen and (max-width: 991px){
     .navbar-toggler{
         padding: 0;
         border: none;
@@ -60,7 +42,7 @@
     .language__switcher-send-request{
         display: unset!important;;
     }
-    .language__switcher{
+    .language__switcher-send-request .language__switcher{
         margin: 20px 0;
     }
     .send__request-btn-wrapper a{
@@ -74,6 +56,29 @@
         padding-bottom: 20px;
         border-bottom: 1px solid #2525221a;
         margin-bottom: 20px;
+    }
+}
+
+/* Max-width 767px */
+
+@media only screen and (max-width: 767px){
+
+    .btn--primary-large{
+        width: 100%;
+        max-width: 100%;
+    }
+    .btn--primary-large span{
+        padding-left: 0;
+        text-align: center;
+    }
+    .btn--primary-large img{
+        width: 36px;
+        height: 36px;
+    } 
+
+    /* Header Area Start */
+    .header__section{
+        padding: 16px 0;
     }
     /* Header Section End */
 
@@ -108,12 +113,12 @@
     }
     .multi-column__section .col-12{
         border-bottom: 1px solid #F7F7F7;
-        padding: 18px 0;
+        padding-top: 18px;
+        padding-bottom: 18px
     }
     .multi-column__section .col-12:first-child{
         padding-top: 0;
     }
-
     .multi-column__section-content{
         padding-right: 0;
         display: flex;
@@ -134,10 +139,14 @@
     .our__services-section .container--xl{
         padding: 0;
     }
+    .our__services-section .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .our__services-section .ellipse-7{
         max-width: 128px;
         top: -48px;
-        left: 28px;
+        left: 24px;
     }
     .our__services-top-content,
     .our__services-bottom-content{
@@ -148,12 +157,7 @@
         border-radius: 64px 64px 0 0;
         padding: 64px 0;
     }
-    .our__services-top-content-col-1,
-    .our__services-top-content-col-2,
-    .our__services-bottom-content-col-1,
-    .our__services-bottom-content-col-2{
-        max-width: 100%;
-        flex-basis: 100%;
+    .our__services-top-content-left, .our__services-bottom-content-left{
         border: none;
     }
     .our__services-top-content-heading{
@@ -402,4 +406,359 @@
         flex-basis: 50%;
     }
     /* Footer Section End */
+}
+
+/* Min-width 768px and Max-width 991px */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .btn--primary {
+        width: fit-content;
+    }
+    .btn--primary img{
+        width: 100%;
+        max-width: 32px;
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
+    .btn--primary span{
+        display: none;
+    }
+    /* Header Area Start */
+    .header__section{
+        padding: 16px 0;
+    }
+    .nav--menu .navbar-nav{
+        gap: 40px;
+    }
+    .language__switcher-send-request{
+        gap: 32px!important;
+    }
+    /* Header Area End */
+
+    /* Multi Column Section Start*/
+    .multi-column__section{
+        padding: 64px 0;
+    }
+    .multi-column__section-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .multi-column__section-content img {
+        max-height: 32px;
+    }
+    /* Multi Column Section End*/
+
+
+    /* Our Service Section Start */
+    .our__services-top-content-heading,
+    .our__services-item-wrapper,
+    .our__services-item-overlay{
+        padding: 12px;
+    }
+    .our__services-top-content-heading h2{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our__services-content{
+        padding-top: 80px;
+    }
+    .our__services-content-text h3 {
+        font-size: 16px;
+        margin-bottom: 12px;
+        line-height: 24px;
+    }
+    .our__services-content-text p{
+        font-size: 14px;
+    }
+    .our__services-section .ellipse-7{
+        top: -40px;
+        left: 16px;
+        max-width: 120px;  
+    }
+    /* Our Service Section End */
+
+
+    /* Testimonial Section Start */
+    .testimonial__section{
+        padding: 64px 0;
+    }
+    .testimonial__section-content p{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .author__role{
+        margin-bottom: 28px;
+    }
+    /* Testimonial Section End */
+
+    /* Why Us Section */
+    .why__us-section{
+        padding: 64px 0;
+    }
+    .why__us-heading{
+        margin-bottom: 48px;
+    }
+    .why__us-heading h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .why__us-content{
+        padding: 12px;
+    }
+    .why__us-content-top{
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+    .why__us-content-top img{
+        max-width: 40px;
+    }
+    .why__us-content-top h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .why__us-content p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .why__us-section-content{
+        margin-bottom: 32px;
+    }
+    .why__us-description p {
+        font-size: 16px;
+    }
+    /* Why Us Section */
+
+
+    /* SAP Section Start */
+    .sap__section{
+        padding: 64px 0;
+    }
+    .sap__heading{
+        text-align: center;
+        margin: 0 auto 28px auto
+    }
+    .sap__heading h2{
+        font-size: 28px;
+        line-height: 36px;    
+    }
+    .sap__content-description p{
+        font-size: 14px;
+        line-height: 28px;    
+    }
+    .sap__section-content-wrapper .d-flex{
+        flex-wrap: wrap;
+        border: none!important;
+        background: #F8F8F8;
+        border-radius: 12px;
+        gap: 24px;
+        padding-bottom: 24px;
+    }
+    .sap__section-content-wrapper .d-flex:first-child{
+        padding-top: 24px;
+    }
+    .sap__section-content-wrapper .d-flex:last-child{
+        flex-direction: column-reverse;
+    }
+
+    .sap__section-content-wrapper .sap__section-content-col{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .sap__section-content-wrapper .sap__section-content-col,
+    .sap__section-content-overlay-text{
+        padding: 0 24px;
+    }
+    .sap__content-heading{
+        margin-bottom: 16px;
+    }
+    .sap__content-heading h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sap__content-heading span{
+        font-size: 40px;
+    }
+    /* SAP Section End */
+
+    /*Footer Area Start */
+    .footer__section{
+        padding-top: 64px;
+    }
+    .footer__logo-area,
+    .footer__menu-area-wrapper{
+        padding-bottom: 64px;
+    }
+    .footer__menu-area h3,
+    .footer__info p:not(:last-child){
+        margin-bottom: 16px;
+    }
+    .footer__info p, .footer__menu .nav-item a{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*Footer Area End */
+}
+
+/* Min-width 1024px and Max-width 1200px */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .btn--primary img{
+        width: 48px;
+        height: 48px;
+    }
+
+    /* Header Area Start */
+    .header__section{
+        padding: 24px 0;
+    }
+    .nav--menu .navbar-nav{
+        gap: 40px;
+    }
+    .language__switcher-send-request{
+        gap: 32px!important;
+    }
+    /* Header Area End */
+
+    /* Multi Column Section Start*/
+    .multi-column__section{
+        padding: 64px 0;
+    }
+    .multi-column__section-content p{
+        font-size: 16px;
+    }
+    .multi-column__section-content img {
+        max-height: 32px;
+    }
+    /* Multi Column Section End*/
+
+
+    /* Our Service Section Start */
+    .our__services-top-content-heading,
+    .our__services-item-wrapper,
+    .our__services-item-overlay{
+        padding: 16px;
+    }
+    .our__services-top-content-heading h2{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .our__services-content{
+        padding-top: 96px;
+    }
+    .our__services-content-text h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .our__services-content-text p{
+        font-size: 14px;
+    }
+    .our__services-section .ellipse-7{
+        top: -60px;
+        left: 0px;
+        max-width: 180px;    
+    }
+    /* Our Service Section End */
+
+
+    /* Testimonial Section Start */
+    .testimonial__section{
+        padding: 80px 0;
+    }
+    .testimonial__section-content p{
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .author__role{
+        margin-bottom: 28px;
+    }
+    /* Testimonial Section End */
+
+    /* Why Us Section */
+    .why__us-section{
+        padding: 80px 0;
+    }
+    .why__us-heading{
+        margin-bottom: 60px;
+    }
+    .why__us-heading h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .why__us-content{
+        padding: 16px;
+    }
+    .why__us-content-top{
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+    .why__us-content-top img{
+        max-width: 48px;
+    }
+    .why__us-content-top h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .why__us-content p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .why__us-section-content{
+        margin-bottom: 32px;
+    }
+    .why__us-description p {
+        font-size: 16px;
+    }
+    /* Why Us Section */
+
+
+    /* SAP Section Start */
+    .sap__section{
+        padding: 80px 0;
+    }
+    .sap__heading{
+        text-align: center;
+        margin: 0 auto 28px auto
+    }
+    .sap__heading h2{
+        font-size: 28px;
+        line-height: 36px;    
+    }
+    .sap__content-description p{
+        font-size: 14px;
+        line-height: 28px;    
+    }
+    .sap__section-content-wrapper .sap__section-content-col,
+    .sap__section-content-overlay-text{
+        padding: 16px;
+    }
+    .sap__content-heading{
+        margin-bottom: 16px;
+    }
+    .sap__content-heading h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sap__content-heading span{
+        font-size: 40px;
+    }
+    /* SAP Section End */
+
+    /*Footer Area Start */
+    .footer__section{
+        padding-top: 80px;
+    }
+    .footer__logo-area,
+    .footer__menu-area-wrapper{
+        padding-bottom: 80px;
+    }
+    .footer__menu-area h3,
+    .footer__info p:not(:last-child){
+        margin-bottom: 16px;
+    }
+    .footer__info p, .footer__menu .nav-item a{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /*Footer Area End */
 }
