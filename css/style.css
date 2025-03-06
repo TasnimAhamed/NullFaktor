@@ -87,8 +87,8 @@ html{
     gap: 58px;
 }
 .nav--menu .navbar-nav li a,
-.send__request-btn-wrapper  a,
-.language__switcher a{
+.navbar-content .send__request-btn-wrapper  a,
+.navbar-content .language__switcher a{
     font-weight: 400;
     font-size: 13px;
     line-height: 15.6px;
