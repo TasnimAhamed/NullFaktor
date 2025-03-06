@@ -437,7 +437,7 @@
     .banner__image{
         padding-bottom: 80px;
     }
-    .banner--content-wrapper{
+    .page-home .banner--content-wrapper{
         max-width: 640px;
     }
     .banner--content-wrapper p{
