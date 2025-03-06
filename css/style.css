@@ -84,6 +84,7 @@ html{
     background: #F8F8F8;
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 .nav--menu .navbar-nav{
     gap: 58px;
