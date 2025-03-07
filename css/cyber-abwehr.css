@@ -1,19 +1,19 @@
 /* Modify CSS for Pentest Page */
 
 /* Banner Section Start*/
-.page-pentest .banner--content-wrapper{
-    max-width: 992px;
+.page-cyber-abwehr .banner--content-wrapper{
+    max-width: 960px;
 }
 /* Banner Section End*/
 
 /* Service Section Start */
-.page-pentest  .our__services-section{
+.page-cyber-abwehr  .our__services-section{
     padding-bottom: 80px;
 }
-.page-pentest .our__services-content{
+.page-cyber-abwehr .our__services-content{
     padding-top: 102px;
 }
-.page-pentest .our__services-section .ellipse-7{
+.page-cyber-abwehr .our__services-section .ellipse-7{
     top: 25%;
     left: -80px;
 }
@@ -25,13 +25,13 @@
 /**/
 @media only screen and (max-width: 768px){
     /* Service Section Start */
-    .page-pentest .our__services-content{
+    .page-cyber-abwehr .our__services-content{
         padding-top: 32px;
     }
     /* Service Section End */
 
     /* Contact Section Start */
-    .page-pentest .contact__section-heading{
+    .page-cyber-abwehr .contact__section-heading{
         padding-bottom: 0;
     }
     /* Contact Section End */

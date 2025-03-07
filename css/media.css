@@ -39,6 +39,10 @@
         gap: 12px;
         margin: 0!important;
     }
+    .nav--menu .navbar-nav li a:not(.active){
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
     .language__switcher-send-request{
         display: unset!important;;
     }
@@ -110,6 +114,23 @@
     }
     /* Banner Section End */
 
+    /* Image With Text Section Start */
+    .image__with-text{
+        padding: 40px 0;
+    }
+    .image__with-text-text-content h4{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .image__with-text-text-content p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0;
+        text-align: center;
+    }
+    /* Image With Text Section End */
+
     /* Multi Column Section Start */
     .multi-column__section{
         padding: 40px 0;
@@ -150,6 +171,10 @@
         max-width: 128px;
         top: -48px;
         left: 24px;
+    }
+    .our__services-top-content-heading h2{
+        font-size: 24px;
+        line-height: 24px;
     }
     .our__services-top-content,
     .our__services-bottom-content{
@@ -346,7 +371,7 @@
 
     /* Contact Section Start */
     .contact__section{
-        padding: 40px 0;
+        padding: 64px 0;
     }
     .contact__section-wrapper .row{
         flex-wrap: wrap;
@@ -360,7 +385,28 @@
     }
     .contact__section-heading p{
         font-size: 16px;
+        margin-top: 16px;
     }
+    .contact__section-heading .kontact__ellipse{
+        max-width: 142px;
+        position: absolute;
+        top: -48px;
+        left: -14px;
+    }
+    .contact__form-info{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .contact__form-info h2{
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .contact__form-info p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .contact__form .row{
         gap: 24px;
     }
@@ -446,6 +492,23 @@
         margin-bottom: 40px;
     }
     /* banner Section End */
+
+    /* Image With Text Section Start */
+    .image__with-text{
+        padding: 64px 0;
+    }
+    .image__with-text-text-content h4{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .image__with-text-text-content p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 0;
+        text-align: center;
+    }
+    /* Image With Text Section End */
 
     /* Multi Column Section Start*/
     .multi-column__section{
@@ -679,6 +742,23 @@
     }
     /* Banner Section End */
 
+    /* Image With Text Section Start */
+    .image__with-text{
+        padding: 80px 0;
+    }
+    .image__with-text-text-content h4{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .image__with-text-text-content p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 24px;
+        text-align: center;
+    }
+    /* Image With Text Section End */
+
     /* Multi Column Section Start*/
     .multi-column__section{
         padding: 64px 0;
@@ -861,6 +941,23 @@
         margin: 0;
     }
     /* Service Section End */
+
+    /* Image With Text Section Start */
+    .image__with-text{
+        padding: 80px 0;
+    }
+    .image__with-text-text-content h4{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .image__with-text-text-content p{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 24px;
+        text-align: center;
+    }
+    /* Image With Text Section End */
 
     /* Contact Section Start */
     

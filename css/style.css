@@ -250,6 +250,40 @@ html{
 }
 /* Multi-Column Section End*/
 
+/* Image With Text Section Start */
+.image__with-text{
+    padding: 120px 0;
+    background: rgb(255, 255, 255);
+}
+.image__with-text-image-content img,
+.image__with-text-text-content img{
+    width: 100%;
+}
+.image__with-text-text-content img{
+    margin: 16px 0;
+}
+.image__with-text-text-content h4{
+    font-family: var(--font-family);
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 300;
+    color: rgba(50, 50, 50, 1);
+    margin: 0;
+}
+.image__with-text-text-content h4 span{
+    font-weight: 400;
+}
+.image__with-text-text-content p{
+    margin-top: 48px;
+    margin-bottom: 0px;
+    font-family: var(--font-family-rubik);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(50, 50, 50, 1);
+}
+/* Image With Text Section End */
+
 /* Our Services Section Start */
 .our__services-section{
     padding-top: 80px;
@@ -571,12 +605,10 @@ html{
 .contact__section{
     padding: 120px 0;
     background: #f8f8f8;
+    position: relative;
 }
 .contact__section-heading{
     text-align: center;
-}
-.contact__section-heading img{
-    margin-bottom: 32px;
 }
 .contact__section-heading p{
     font-family: var(--font-family);
@@ -584,7 +616,7 @@ html{
     font-weight: 400;
     line-height: 26px;
     color: #565656;
-    margin: 0 auto;
+    margin: 32px auto 0 auto;
     width: 100%;
     max-width: 380px;
     text-align: center;
@@ -616,6 +648,7 @@ html{
     line-height: 26px;
     font-weight: 400;
     color: rgba(50, 50, 50, 1);
+    margin: 0;
 }
 .contact__form .form-control{
     padding: 0 24px;
