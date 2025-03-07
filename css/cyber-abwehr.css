@@ -1,6 +1,9 @@
 /* Modify CSS for Pentest Page */
 
 /* Banner Section Start*/
+.page-cyber-abwehr .banner__section{
+    background: #ffffff;
+}
 .page-cyber-abwehr .banner--content-wrapper{
     max-width: 960px;
 }

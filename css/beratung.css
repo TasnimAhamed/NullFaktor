@@ -1,0 +1,21 @@
+/* Modify CSS for Pentest Page */
+
+/* Banner Section Start*/
+.page-beratung .banner__section{
+    background: #ffffff;
+}
+/* Banner Section End*/
+
+
+
+/* Modify CSS for Pentest Page (Media) */
+
+/**/
+@media only screen and (max-width: 768px){
+
+    /* Contact Section Start */
+    .page-beratung .contact__section-heading{
+        padding-bottom: 0;
+    }
+    /* Contact Section End */
+}

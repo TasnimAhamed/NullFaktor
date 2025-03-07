@@ -225,6 +225,14 @@ html{
 }
 /* Banner Section End */
 
+/* Hero Image Section Start */
+.hero__image-section .hero__image{
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+/* Hero Image Section End */
+
 /* Multi-Column Section Start*/
 .multi-column__section{
     padding: 80px 0;
