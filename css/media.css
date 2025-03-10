@@ -265,7 +265,7 @@
         line-height: 24px;
     }
     .why__us-section-content .row{
-        gap: 24px;
+        gap: 24px 0;
     }
     .why__us-section-content .col{
         max-width: 100%;
