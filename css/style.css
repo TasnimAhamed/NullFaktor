@@ -467,7 +467,7 @@ html{
     max-width: calc(33.33% - 22px);
     flex-basis: calc(33.33% - 22px);
 }
-.why__us-section-content .col.highlight .why__us-content-wrapper{
+.why__us-section-content .col-12.highlight .why__us-content-wrapper{
     background: linear-gradient(to right, #B19BF8, #6C63F3);
 }
 .why__us-content-wrapper{
