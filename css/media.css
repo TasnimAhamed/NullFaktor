@@ -1645,8 +1645,7 @@
     .sap__section-content-wrapper .sap__section-content-col {
         padding: 24px;
     }
-    .sap__section-content-overlay, .sap__section-content-overlay-text, 
-    .sap__section-content-overlay img{
+    .sap__section-content-overlay-text{
         padding: 24px;
     }
     .sap__content-description p{
@@ -1668,10 +1667,13 @@
     }
     .contact__form .btn--primary {
         max-width: 100%;
-        margin-top: 24px;
+    }
+    .contact__form .btn--primary img{
+        max-width: 40px;
     }
     .btn--primary span {
-        padding-left: 16px;
+        padding-left: 12px;
+        font-size: 12px;
         width: 100%;
     }
     /* Contact Section End */
