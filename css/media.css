@@ -63,8 +63,8 @@
     }
 }
 
-/* Max-width 599px */
-@media only screen and (max-width: 599px){
+/* Max-width 576px */
+@media only screen and (max-width: 575px){
 
     .btn--primary-large{
         width: 100%;
@@ -173,7 +173,7 @@
     }
     .our__services-top-content-heading h2{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 32px;
     }
     .our__services-top-content,
     .our__services-bottom-content{
@@ -280,8 +280,8 @@
         max-width: 48px;
     }
     .why__us-content-top h3{
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 17px;
+        line-height: 24px;
     }
 
     .why__us-content p{
@@ -457,7 +457,7 @@
 }
 
 /* Min Width 600px and Max-width 767px */
-@media (min-width: 600px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
 
     .btn--primary-large{
         width: 100%;
@@ -493,7 +493,8 @@
     .banner__content{
         padding-bottom: 108px;
     }
-    .banner--content-wrapper{
+    .banner--content-wrapper,
+    .page-pentest .banner--content-wrapper{
         max-width: 520px;
     }
     .banner--content-wrapper p{
@@ -550,8 +551,8 @@
         left: 24px;
     }
     .our__services-top-content-heading h2{
-        font-size: 20px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 32px;
     }
     .our__services-top-content,
     .our__services-bottom-content{
@@ -635,7 +636,7 @@
     }
     .why__us-heading h2{
         font-size: 24px;
-        line-height: 24px;
+        line-height: 32px;
     }
     .why__us-section-content .row{
         gap: 24px 0;
@@ -686,7 +687,7 @@
     
     .sap__heading h2{
         font-size: 24px;
-        line-height: 36px;
+        line-height: 32px;
         text-align: center;
     }
     .sap__section-content-wrapper{
@@ -773,6 +774,7 @@
     .contact__form-info{
         margin-bottom: 40px;
         text-align: center;
+        max-width: 100%;
     }
     .contact__form-info h2{
         font-size: 24px;
@@ -853,7 +855,7 @@
         padding: 16px 0;
     }
     .nav--menu .navbar-nav{
-        gap: 40px;
+        gap: 4px;
     }
     .language__switcher-send-request{
         gap: 32px!important;
@@ -922,8 +924,8 @@
         left: 24px;
     }
     .our__services-top-content-heading h2{
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 28px;
+        line-height: 40px;
     }
     .our__services-top-content,
     .our__services-bottom-content{
@@ -932,17 +934,21 @@
     }
     .our__services-section-wrapper{
         border-radius: 32px 32px 0 0;
-        padding: 32px 0 16px 0;
+        padding-top: 32px;
     }
     .our__services-top-content-left, .our__services-bottom-content-left{
-        border: none;
+        border-right: none;
+        border-bottom: 2px solid #ffffff;
+    }
+    .our__services-top-content-left{
+        border-bottom: none;
     }
     .our__services-top-content-heading{
         text-align: center;
         padding: 0 16px;
     }
     .our__services-item-wrapper{
-        padding: 24px 16px 0px 16px;
+        padding: 16px;
     }
     .our__services-item-overlay{
         padding: 16px;
@@ -1100,6 +1106,27 @@
     .contact__section{
         padding: 64px 0;
     }
+    .contact__section-wrapper .row {
+        flex-wrap: wrap;
+    }
+    .contact__form .row {
+        gap: 24px;
+    }
+    .contact__section-wrapper .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .contact__section-heading .kontact__ellipse {
+        max-width: 160px;
+        position: absolute;
+        top: -48px;
+        left: -14px;
+    }
+    .contact__form-info{
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 48px;
+    }
     .contact__section-heading p{
         font-size: 16px;
     }
@@ -1112,11 +1139,16 @@
     }
     .contact__form .btn--primary {
         max-width: 100%;
-        margin-top: 24px;
     }
     .btn--primary span {
         padding-left: 16px;
         width: 100%;
+    }
+    .contact__form .form-check{
+        align-items: center;
+    }
+    .contact__form .form-check-label{
+        max-width: 100%;
     }
     /* Contact Section End */
 
@@ -1220,6 +1252,10 @@
         font-size: 20px;
         line-height: 28px;
     }
+    .page-pentest .our__services-top-content-heading h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
     .our__services-top-content.row,
     .our__services-bottom-content.row{
         margin: 0;
@@ -1269,8 +1305,8 @@
         margin-bottom: 40px;
     }
     .why__us-heading h2{
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 32px;
+        line-height: 40px;
     }
     .why__us-content{
         padding: 16px;
@@ -1352,6 +1388,12 @@
     .btn--primary span {
         padding-left: 16px;
         width: 100%;
+    }
+    body:not(.page-home) .contact__section-heading img{
+        max-width: 60%;
+    }
+    .contact__form-info{
+        margin-bottom: 48px;
     }
     /* Contact Section End */
 
@@ -1461,7 +1503,7 @@
         line-height: 40px;
     }
     .why__us-content{
-        padding: 24px;
+        padding: 20px;
     }
     .why__us-content-top{
         gap: 20px;
@@ -1489,9 +1531,11 @@
     .sap__section-content-wrapper .sap__section-content-col {
         padding: 24px;
     }
-    .sap__section-content-overlay, .sap__section-content-overlay-text, 
-    .sap__section-content-overlay img{
+    .sap__section-content-overlay-text {
         padding: 24px;
+    }
+    .sap__heading h2{
+        font-size: 32px;
     }
     .sap__content-description p{
         font-size: 14px;
@@ -1517,6 +1561,12 @@
     .btn--primary span {
         padding-left: 16px;
         width: 100%;
+    }
+    body:not(.page-home) .contact__section-heading img{
+        max-width: 60%;
+    }
+    .contact__form-info{
+        margin-bottom: 48px;
     }
     /* Contact Section End */
 
@@ -1613,7 +1663,7 @@
         margin-bottom: 48px;
     }
     .why__us-heading h2{
-        font-size: 32px;
+        font-size: 36px;
         line-height: 40px;
     }
     .why__us-content{
@@ -1675,6 +1725,12 @@
         padding-left: 12px;
         font-size: 12px;
         width: 100%;
+    }
+    body:not(.page-home) .contact__section-heading img{
+        max-width: 60%;
+    }
+    .contact__form-info{
+        margin-bottom: 48px;
     }
     /* Contact Section End */
 
