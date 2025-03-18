@@ -337,7 +337,7 @@ html{
     position: relative;
     padding: 56px 0;
 }
-.sap__consultation-row .col-lg-4:first-child .sap__consultation-content-wrapper::before{
+.sap__consultation-row .col-sm-4:first-child .sap__consultation-content-wrapper::before{
     content: unset;
 }
 .sap__consultation-content-wrapper::before{
