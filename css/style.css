@@ -88,6 +88,9 @@ html{
     top: 0;
     z-index: 99;
 }
+.page-home .header__section{
+    background: #F8F8F8;
+}
 .nav--menu .navbar-nav{
     gap: 58px;
 }
