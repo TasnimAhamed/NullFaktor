@@ -210,6 +210,10 @@
         font-size: 14px;
         line-height: 28px;
     }
+    .sap__consultation-section .banner--message-wrapper{
+        padding-top: 40px;
+        display: flex;
+    }
     /* SAP Consultation Section End */
 
     /*Our Services Section Start*/
@@ -646,6 +650,10 @@
         font-size: 14px;
         line-height: 28px;
     }
+    .sap__consultation-section .banner--message-wrapper{
+        padding-top: 40px;
+        display: flex;
+    }
     /* SAP Consultation Section End */
 
     /*Our Services Section Start*/
@@ -1068,6 +1076,9 @@
     .sap__consultation-content .sap__consultation-text p{
         font-size: 14px;
         line-height: 28px;
+    }
+    .sap__consultation-section .banner--message-wrapper{
+        padding-top: 40px;
     }
     /* SAP Consultation Section End */
 

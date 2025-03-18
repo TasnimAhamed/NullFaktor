@@ -388,6 +388,10 @@ html{
     line-height: 26px;
     letter-spacing: 0.03px;
 }
+.sap__consultation-section .banner--message-wrapper{
+    padding-top: 80px;
+    justify-content: center;
+}
 /* SAP Consultation Section End */
 
 /* Our Services Section Start */
