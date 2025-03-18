@@ -1607,6 +1607,35 @@
     }
     /* Multi Column Section End */
 
+    /* SAP Consultation Section Start */
+    .sap__consultation-row{
+        padding: 0 12px;
+    }
+    .sap__consultation-content-wrapper{
+        padding: 24px 0;
+    }
+    .sap__consultation-content-wrapper::before{
+        left: 28px;
+    }
+    .sap__consultation-content{
+        gap: 12px;
+        justify-content: center;
+        text-align: center;
+    }
+    .sap__consultation-content .sap__consultation-image{
+        width: 100%;
+        max-width: 100%;
+    }
+    .sap__consultation-content .sap__consultation-text{
+        width: 100%;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .sap__consultation-content .sap__consultation-text h3{
+        margin-bottom: 12px;
+    }
+    /* SAP Consultation Section End */
+
     /* Our Service Section Start */
     .our__services-top-content-heading,
     .our__services-item-wrapper,

@@ -83,7 +83,7 @@ html{
 /* Header Area Start */
 .header__section{
     padding: 32px 0;
-    background: #F8F8F8;
+    background: #ffffff;
     position: sticky;
     top: 0;
     z-index: 99;
@@ -294,6 +294,101 @@ html{
     color: rgba(50, 50, 50, 1);
 }
 /* Image With Text Section End */
+
+/* SAP Consultation Section Start */
+.sap__consultation-section{
+    padding: 120px 0;
+    background: rgba(248, 248, 248, 1);
+}
+.sap__consultation-heading{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sap__consultation-heading h2{
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 38px;
+    background: linear-gradient(to right, #202026, #76768C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.sap__consultation-heading h2 span{
+    font-weight: 400;
+}
+.sap__consultation-row-wrapper{
+    background: linear-gradient(to right, #FFFFFF 53%, #BDB3FF 100%);
+    padding: 4px;
+    border-radius: 26px;
+    box-shadow: 
+    -2px 6px 11px rgba(0, 0, 0, 0.08), 
+        0px 2px 2px rgba(0, 0, 0, 0.03);
+}
+.sap__consultation-row{
+    padding: 0 28px;
+    background: #ffffff;
+    border-radius: 24px;
+    margin: 0;
+    position: relative;
+    align-items: center;
+}
+.sap__consultation-content-wrapper{
+    position: relative;
+    padding: 56px 0;
+}
+.sap__consultation-row .col-lg-4:first-child .sap__consultation-content-wrapper::before{
+    content: unset;
+}
+.sap__consultation-content-wrapper::before{
+    content: "";
+    background-image: url(./../img/shape-2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 6px;
+    left: 24px;
+    transform: scale(1.32);
+}
+.sap__consultation-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+.sap__consultation-content .sap__consultation-image{
+    width: 100%;
+    max-width: 72px;
+}
+.sap__consultation-content .sap__consultation-text{
+    width: 100%;
+    max-width: calc(100% - 148px);
+    flex-basis: calc(100% - 148px);;
+}
+.sap__consultation-content .sap__consultation-text h3{
+    font-family: var(--font-family-rubik);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    background: linear-gradient(to right, #202026, #76768c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.06px;
+    margin-bottom: 16px;
+}
+.sap__consultation-content .sap__consultation-text p{
+    margin: 0;
+    font-family: var(--font-family-rubik);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03px;
+}
+/* SAP Consultation Section End */
 
 /* Our Services Section Start */
 .our__services-section{
