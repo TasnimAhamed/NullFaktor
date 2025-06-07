@@ -217,8 +217,13 @@ html{
     text-align: center;
     margin-bottom: 20px;
 }
-.banner__image{
-    padding-bottom: 120px;
+
+.banner__image.banner__image-index img{
+    margin-left: -16.6%;
+}
+.banner__image.banner__image-index img{
+    width: 118%;
+    max-width: 118%;
 }
 .banner__image img{
     width: 100%;
