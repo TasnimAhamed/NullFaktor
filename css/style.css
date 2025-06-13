@@ -220,10 +220,19 @@ html{
 
 .banner__image.banner__image-index img{
     margin-left: -16.6%;
-}
-.banner__image.banner__image-index img{
     width: 118%;
     max-width: 118%;
+}
+.banner__image.banner__image-pentest img{
+    margin-left: -13.8%;
+}
+.banner__image.banner__image-cyber-abwehr img {
+    margin-left: -9%;
+    width: 116%;
+    max-width: 116%;
+}
+.banner__image.banner__image-beratung img{
+    margin-left: -14%;
 }
 .banner__image img{
     width: 100%;
@@ -724,6 +733,12 @@ html{
 }
 .contact__section-heading{
     text-align: center;
+}
+.page-home .contact__section-heading img{
+    margin-left: -24%;
+    margin-bottom: -17%;
+    max-width: 150%;
+    width: 126%;
 }
 .contact__section-heading p{
     font-family: var(--font-family);

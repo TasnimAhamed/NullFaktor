@@ -6,8 +6,6 @@
 }
 /* Banner Section End*/
 
-
-
 /* Modify CSS for Pentest Page (Media) */
 
 /**/
@@ -18,4 +16,10 @@
         padding-bottom: 0;
     }
     /* Contact Section End */
+}
+
+@media screen and (min-width: 767px) {
+    .page-beratung .banner__image.banner__image-beratung{
+        padding-bottom: 27px;
+    }
 }
