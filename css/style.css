@@ -474,6 +474,23 @@ html{
     padding: 36px;
     border-radius: 12px;
     background: #FCFCFC;
+    position: relative;
+}
+.our__services-item-overlay::after{
+    content: "";;
+    position: absolute;
+    background-image: url(./../img/dotted-bg.svg);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    max-width: 495px;
+
+}
+.our__services-pill{
+    position: relative;
+    z-index: 2;
 }
 .our__services-content{
     display: flex;
@@ -481,6 +498,8 @@ html{
     align-items: flex-end;
     gap: 12px;
     padding-top: 192px;
+    position: relative;
+    z-index: 2;
 }
 .our__services-content-text{
     width: 100%;
