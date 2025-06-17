@@ -22,16 +22,16 @@ html{
 /* Custom Container */
 .container--xxl{
     width: 100%;
-    max-width: 1800px;
-    padding-left: 12px;
-    padding-right: 12px;
+    max-width: 1826px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin: 0 auto;
 }
 .container--xl{
     width: 100%;
-    max-width: 1472px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 1488px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin: 0 auto;
 }
 
@@ -78,6 +78,47 @@ html{
 }
 .btn--primary-sm span{
     display: none;
+}
+/*Button Gradient*/
+.gradient-button {
+   display: flex;
+  align-items: stretch; 
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  overflow: hidden; 
+  background: linear-gradient(135deg, #B19BF8, #6C63F3);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 33px;
+}
+
+.button-icon-wrapper {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-icon-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.button-text {
+  display: flex;
+  align-items: center;  
+  padding: 0 20px 0 5px;
+  font-family: 'Non Bureau', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 12px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase; 
 }
 
 /* Header Area Start */
@@ -207,6 +248,8 @@ html{
     background: #ffffff;
     padding: 28px 16px;
     border-radius: 10px 10px 0 0;
+    max-width: 440px;
+    margin: 0 auto;
 }
 .banner--message-wrapper-mobile p{
     font-family: var(--font-family);
@@ -219,7 +262,7 @@ html{
 }
 
 .banner__image.banner__image-index img{
-    margin-left: -16.6%;
+    margin-left: -16.5%;
     width: 118%;
     max-width: 118%;
 }
@@ -237,8 +280,12 @@ html{
 .banner__image img{
     width: 100%;
 }
-.banner__image h1 span{
-    font-size: 312px;
+
+.banner__image.banner__image-cyber-abwehr .mobile-banner-image{
+    display: none;
+}
+.page-home .banner__image-index .banner__image-mobile{
+    display: none;;
 }
 /* Banner Section End */
 
@@ -341,7 +388,7 @@ html{
 }
 .sap__consultation-row{
     padding: 0 28px;
-    background: #ffffff;
+    background: #FCFCFC;
     border-radius: 24px;
     margin: 0;
     position: relative;
@@ -405,6 +452,10 @@ html{
 .sap__consultation-section .banner--message-wrapper{
     padding-top: 80px;
     justify-content: center;
+}
+.sap__consultation-section .banner--message-wrapper-mobile{
+    background: transparent;
+    padding: 64px 16px 32px;
 }
 /* SAP Consultation Section End */
 

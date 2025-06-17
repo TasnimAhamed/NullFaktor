@@ -81,7 +81,7 @@
 
     /* Header Area Start */
     .header__section{
-        padding: 16px 0;
+        padding: 32px 0;
     }
     /* Header Section End */
 
@@ -91,8 +91,20 @@
         padding-top: 108px;
         padding-bottom: 0;
     }
+    .page-home .banner__section{
+        padding-top: 0px;
+    }
+    .page-home .banner__image{
+        padding-bottom: 95px;
+    }
+    .page-cyber-abwehr .banner__section{
+        padding-top: 64px;
+    }
     .banner__image{
         padding-bottom: 108px;
+    }
+    .page-cyber-abwehr .banner__image{
+        padding-bottom: 72px;
     }
     .banner__image h1 span{
         font-size: 64px;
@@ -110,6 +122,24 @@
     }
     .banner--message-wrapper{
         display: none;
+    }
+    .banner__image.banner__image-cyber-abwehr .desktop-banner-image{
+        display: none;
+    }
+    .banner__image.banner__image-cyber-abwehr .mobile-banner-image {
+        display: block;
+        margin-left: -4.5%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .page-home .banner__image-index .banner__image-desktop{
+        display: none;
+    }
+    .page-home .banner__image-index .banner__image-mobile{
+        display: block;
+        width: 113%;
+        max-width: 120%;
+        margin-left: -4%;
     }
     /* Banner Section End */
 
@@ -161,6 +191,8 @@
     /* SAP Consultation Section Start */
     .sap__consultation-row-wrapper{
         background: linear-gradient(to bottom, #FFFFFF 53%, #BDB3FF 100%);
+        max-width: 272px;
+        margin: 0 auto;
     }
     .sap__consultation-section{
         padding: 40px 0;
@@ -181,13 +213,28 @@
     .sap__consultation-content-wrapper{
         padding: 24px 0;
     }
+    .sap__consultation-content-wrapper::before{
+        background-image: url('./../img/shape-3.png');
+        left: -2%;
+        top: -67%;
+        transform: scale(1.42)
+    }
     .sap__consultation-content{
         gap: 12px;
         justify-content: center;
         text-align: center;
     }
-    .sap__consultation-content-wrapper::before{
-        content: unset;
+    .sap__consultation-row .col-12.col-sm-4:first-child {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:nth-child(2) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:last-child {
+        padding-top: 40px;
+        padding-bottom: 15px;
     }
     .sap__consultation-content .sap__consultation-image{
         width: 100%;
@@ -211,8 +258,7 @@
         line-height: 28px;
     }
     .sap__consultation-section .banner--message-wrapper{
-        padding-top: 40px;
-        display: flex;
+        display: none;
     }
     /* SAP Consultation Section End */
 
@@ -532,7 +578,7 @@
 
     /* Header Area Start */
     .header__section{
-        padding: 16px 0;
+        padding: 32px 0;
     }
     /* Header Section End */
 
@@ -601,6 +647,8 @@
     /* SAP Consultation Section Start */
     .sap__consultation-row-wrapper{
         background: linear-gradient(to bottom, #FFFFFF 53%, #BDB3FF 100%);
+        max-width: 408px;
+        margin: 0 auto;
     }
     .sap__consultation-section{
         padding: 40px 0;
@@ -627,7 +675,22 @@
         text-align: center;
     }
     .sap__consultation-content-wrapper::before{
-        content: unset;
+        background-image: url('./../img/shape-3.png');
+        left: -2%;
+        top: -67%;
+        transform: scale(1.38)
+    }
+    .sap__consultation-row .col-12.col-sm-4:first-child {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:nth-child(2) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:last-child {
+        padding-top: 40px;
+        padding-bottom: 15px;
     }
     .sap__consultation-content .sap__consultation-image{
         width: 100%;
@@ -651,8 +714,7 @@
         line-height: 28px;
     }
     .sap__consultation-section .banner--message-wrapper{
-        padding-top: 40px;
-        display: flex;
+        display: none;
     }
     /* SAP Consultation Section End */
 
@@ -968,7 +1030,7 @@
     }
     /* Header Area Start */
     .header__section{
-        padding: 16px 0;
+        padding: 32px 0;
     }
     .nav--menu .navbar-nav{
         gap: 4px;
@@ -1028,6 +1090,8 @@
     /* SAP Consultation Section Start */
     .sap__consultation-row-wrapper{
         background: linear-gradient(to bottom, #FFFFFF 53%, #BDB3FF 100%);
+        max-width: 408px;
+        margin: 0 auto;
     }
     .sap__consultation-section{
         padding: 80px 0;
@@ -1054,7 +1118,22 @@
         text-align: center;
     }
     .sap__consultation-content-wrapper::before{
-        content: unset;
+        background-image: url('./../img/shape-3.png');
+        left: -2%;
+        top: -67%;
+        transform: scale(1.38)
+    }
+    .sap__consultation-row .col-12.col-sm-4:first-child {
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:nth-child(2) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sap__consultation-row .col-12.col-sm-4:last-child {
+        padding-top: 40px;
+        padding-bottom: 15px;
     }
     .sap__consultation-content .sap__consultation-image{
         width: 100%;
@@ -1078,7 +1157,17 @@
         line-height: 28px;
     }
     .sap__consultation-section .banner--message-wrapper{
-        padding-top: 40px;
+        display: none;
+    }
+    .sap__consultation-section .banner--message-wrapper-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    .sap__consultation-section .banner--message-mobile{
+        width: 100%;
+    }
+    .sap__consultation-section .banner--message-mobile a{
+        max-width: 100%;
     }
     /* SAP Consultation Section End */
 
