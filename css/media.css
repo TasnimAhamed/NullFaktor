@@ -21,6 +21,7 @@
         max-width: 768px;
         transform: translateX(-100%);
         transition: all 0.25s ease-in-out;
+        padding-top: 56px;
     }
     .navbar-content.active{
         transform: translateX(0);
@@ -39,19 +40,18 @@
         gap: 12px;
         margin: 0!important;
     }
-    .nav--menu .navbar-nav li a:not(.active){
-        padding-left: 0!important;
-        padding-right: 0!important;
-    }
+    
     .language__switcher-send-request{
         display: unset!important;;
     }
     .language__switcher-send-request .language__switcher{
         margin: 20px 0;
+        padding-left: 18px;
     }
     .send__request-btn-wrapper a{
         flex-direction: row-reverse;
         justify-content: flex-end;
+        padding-left: 18px;
     }
     .mobile__menu-header{
         display: flex;
