@@ -317,6 +317,7 @@ html{
 .multi-column__section-content{
     width: 100%;
     max-width: 348px;
+    text-align: center;
 }
 .multi-column__section-content img{
     width: 100%;
@@ -332,6 +333,7 @@ html{
     color: #8D8D8D;
     margin-bottom: 0;
     letter-spacing: 0.02em;
+    text-align: left;
 }
 /* Multi-Column Section End*/
 
@@ -408,11 +410,15 @@ html{
     border-radius: 24px;
     margin: 0;
     position: relative;
-    align-items: center;
 }
 .sap__consultation-content-wrapper{
     position: relative;
     padding: 56px 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 .sap__consultation-row .col-sm-4:first-child .sap__consultation-content-wrapper::before{
     content: unset;
@@ -428,7 +434,7 @@ html{
     height: 100%;
     position: absolute;
     top: 6px;
-    left: 24px;
+    left: 20px;
     transform: scale(1.32);
 }
 .sap__consultation-content{
@@ -483,9 +489,10 @@ html{
 
 .our__services-section-wrapper{
     position: relative;
-    background: #f8f8f8;
+    background: rgb(245 245 245 / 77%);
     border-top-left-radius: 56px;
     z-index: 2;
+    backdrop-filter: blur(22px);
 }
 .our__services-section .container--xl{
     position: relative;
@@ -540,9 +547,12 @@ html{
 .our__services-item-overlay{
     padding: 36px;
     border-radius: 12px;
-    background: #FCFCFC;
+    background: #FBFBFB;
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .our__services-item-overlay::after{
     content: "";;
@@ -565,7 +575,7 @@ html{
     justify-content: space-between;
     align-items: flex-end;
     gap: 12px;
-    padding-top: 192px;
+    padding-top: 104px;
     position: relative;
     z-index: 2;
 }
