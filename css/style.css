@@ -51,8 +51,10 @@ html{
     max-width: 204px;
     border-radius: 60px;
     padding: 4px;
+    transition: all 0.3s ease-in-out;
 }
 .btn--primary:hover{
+    background: #776cf3;
     color: #ffffff;
 }
 .btn--primary-large{
