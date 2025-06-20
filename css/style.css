@@ -545,7 +545,7 @@ html{
     height: 100%;
 }
 .our__services-item-overlay{
-    padding: 36px;
+    padding: 48px 40px;
     border-radius: 12px;
     background: #FBFBFB;
     position: relative;
@@ -584,6 +584,7 @@ html{
     max-width: 582px;
 }
 .our__services-content-text h3{
+    font-family: "Rubik", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 28.44px;
@@ -595,7 +596,9 @@ html{
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-    color: #8D8D8D;
+    color: #565656;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 0.34px;
 }
 
 .our__services-bottom-content-col-1,
