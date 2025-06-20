@@ -94,7 +94,9 @@
     .page-pentest .banner__section{
         padding-top: 0px;
     }
-    
+    .page-beratung .banner__section{
+        padding-top: 64x;
+    }
     .page-cyber-abwehr .banner__section{
         padding-top: 32px;
     }
@@ -107,9 +109,11 @@
     .page-pentest .banner__image{
         padding-bottom: 94px;
     }
-
     .page-cyber-abwehr .banner__image{
         padding-bottom: 144px;
+    }
+    .page-beratung .banner__image{
+        padding-bottom: 120px;
     }
     .banner__image h1 span{
         font-size: 64px;
@@ -125,6 +129,10 @@
         padding-left: 16px;
         padding-right: 16px
     }
+    .page-beratung .banner__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .banner--content-wrapper p{
         font-size: 20px;
         line-height: 24px;
@@ -136,19 +144,14 @@
     .banner--message-wrapper{
         display: none;
     }
-    .banner__image.banner__image-cyber-abwehr .desktop-banner-image{
-        display: none;
-    }
-    .banner__image.banner__image-cyber-abwehr .mobile-banner-image {
-        display: block;
-        margin-left: -4.5%;
-        width: 100%;
-        max-width: 100%;
-    }
+
     .page-home .banner__image-index .banner__image-desktop,
-    .page-pentest .banner__image-pentest .banner__image-desktop{
+    .page-pentest .banner__image-pentest .banner__image-desktop,
+    .page-cyber-abwehr .banner__image-cyber-abwehr .banner__image-desktop,
+    .page-beratung .banner__image-beratung .banner__image-desktop{
         display: none;
     }
+    
     .page-home .banner__image-index .banner__image-mobile{
         display: block;
         width: 110%;
@@ -160,6 +163,19 @@
         width: 100%;
         max-width: 100%;
         margin-left: -1%;
+    }
+    
+    .page-cyber-abwehr .banner__image-cyber-abwehr .banner__image-mobile{
+        display: block;
+        margin-left: -4.5%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .page-beratung .banner__image-beratung .banner__image-mobile {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
     }
     /* Banner Section End */
 
@@ -352,7 +368,8 @@
     .our__services-content .btn--primary span{
         display: none;
     }
-    .our__services-content .btn--primary img{
+    .our__services-content .btn--primary img,
+    .our__services-content .btn--primary svg{
         width: 36px;
         height: 36px;
     }
@@ -537,7 +554,8 @@
     .contact__form .btn--primary{
         max-width: 100%;
     }
-    .contact__form .btn--primary img{
+    .contact__form .btn--primary img,
+    .contact__form .btn--primary svg{
         width: 36px;
         height: 36px;
     }
@@ -796,7 +814,8 @@
     .our__services-content .btn--primary span{
         display: none;
     }
-    .our__services-content .btn--primary img{
+    .our__services-content .btn--primary img,
+    .our__services-content .btn--primary svg{
         width: 36px;
         height: 36px;
     }
@@ -986,7 +1005,8 @@
     .contact__form .btn--primary{
         max-width: 100%;
     }
-    .contact__form .btn--primary img{
+    .contact__form .btn--primary img,
+    .contact__form .btn--primary svg{
         width: 36px;
         height: 36px;
     }
@@ -1040,7 +1060,8 @@
     .container--xl{
         max-width: 640px;
     }
-    .btn--primary img{
+    .btn--primary img,
+    .btn--primary svg{
         max-width: 40px;
     }
     /* Header Area Start */
@@ -1258,7 +1279,8 @@
     .our__services-content .btn--primary span{
         display: none;
     }
-    .our__services-content .btn--primary img{
+    .our__services-content .btn--primary img,
+    .our__services-content .btn--primary svg{
         width: 36px;
         height: 36px;
     }
@@ -1452,7 +1474,8 @@
         max-width: 800px;
     }
 
-    .btn--primary img{
+    .btn--primary img,
+    .btn--primary svg{
         width: 48px;
         height: 48px;
     }
@@ -2133,7 +2156,8 @@
     .contact__form .btn--primary {
         max-width: 100%;
     }
-    .contact__form .btn--primary img{
+    .contact__form .btn--primary img,
+    .contact__form .btn--primary svg{
         max-width: 40px;
     }
     .btn--primary span {

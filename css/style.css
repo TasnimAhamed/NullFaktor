@@ -60,12 +60,16 @@ html{
 .btn--primary-large{
     max-width: 260px;
 }
-.btn--primary img{
-    width: 100%;
-    max-width: 56px;
+.btn--primary img,
+.btn--primary svg{
+    width: 56px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
+}
+.btn--primary-sm img,
+.btn--primary-sm svg{
+    width: 48px;
 }
 .btn--primary span{
     padding-left: 16px;
@@ -76,51 +80,54 @@ html{
 }
 .btn--primary-sm{
     max-width: fit-content;
-    padding: 0;
+    padding: 4px;
 }
 .btn--primary-sm span{
     display: none;
 }
+.btn--primary[type="submit"]{
+    border: none;
+}
 /*Button Gradient*/
 .gradient-button {
-   display: flex;
-  align-items: stretch; 
-  padding: 0;
-  border: none;
-  border-radius: 999px;
-  overflow: hidden; 
-  background: linear-gradient(135deg, #B19BF8, #6C63F3);
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
-  height: 33px;
+    display: flex;
+    align-items: stretch; 
+    padding: 0;
+    border: none;
+    border-radius: 999px;
+    overflow: hidden; 
+    background: linear-gradient(135deg, #B19BF8, #6C63F3);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 33px;
 }
 
 .button-icon-wrapper {
-  height: 100%;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .button-icon-wrapper img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .button-text {
-  display: flex;
-  align-items: center;  
-  padding: 0 20px 0 5px;
-  font-family: 'Non Bureau', sans-serif;
-  font-weight: 500; /* Medium */
-  font-size: 12px;
-  letter-spacing: 0.72px;
-  text-transform: uppercase; 
+    display: flex;
+    align-items: center;  
+    padding: 0 20px 0 5px;
+    font-family: 'Non Bureau', sans-serif;
+    font-weight: 500; 
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    text-transform: uppercase; 
 }
 
 /* Header Area Start */
@@ -287,13 +294,10 @@ html{
     width: 100%;
 }
 
-.banner__image.banner__image-cyber-abwehr .mobile-banner-image{
-    display: none;
-}
-.page-home .banner__image-index .banner__image-mobile{
-    display: none;;
-}
-.page-pentest .banner__image-pentest .banner__image-mobile{
+.page-home .banner__image-index .banner__image-mobile,
+.page-pentest .banner__image-pentest .banner__image-mobile,
+.page-cyber-abwehr .banner__image-cyber-abwehr .banner__image-mobile,
+.page-beratung .banner__image-beratung .banner__image-mobile{
     display: none;
 }
 /* Banner Section End */
