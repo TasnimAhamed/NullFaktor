@@ -685,7 +685,7 @@
         padding: 40px 0;
     }
     .multi-column__section-content img{
-        height: 32px;
+        max-height: 32px;
     }
     .multi-column__section-content p{
         font-size: 14px;
@@ -799,8 +799,8 @@
     .our__services-item-overlay{
         padding: 12px;
     }
-    .our__services-pill {
-        text-align: center;
+    .our__services-pill .gradient-button{
+        margin: 0 auto;
     }
     .our__services-content{
         padding-top: 30px;
@@ -1264,8 +1264,8 @@
     .our__services-item-overlay{
         padding: 16px;
     }
-    .our__services-pill {
-        text-align: center;
+    .our__services-pill .gradient-button{
+        margin: 0 auto;
     }
     .our__services-content{
         padding-top: 30px;
@@ -1288,17 +1288,20 @@
         text-align: center;
     }
     .our__services-content .btn--primary{
-        width: fit-content;
+        width: 100%;
+        max-width: 48px;
         height: auto;
-        padding: 2px;
+        aspect-ratio: 1 / 1;
+        padding: 0;
     }
     .our__services-content .btn--primary span{
         display: none;
     }
     .our__services-content .btn--primary img,
     .our__services-content .btn--primary svg{
-        width: 36px;
-        height: 36px;
+        width: 48px;
+        height: 48px;
+        max-width: 100% !important;
     }
     /* Our Services Section End */
 
@@ -1623,10 +1626,17 @@
         padding-top: 96px;
     }
     .our__services-content .btn--primary{
-        width: fit-content;
+        width: 100%;
+        max-width: 48px;
+        height: auto;
+        aspect-ratio: 1/1;
+        padding: 0;
     }
     .our__services-content .btn--primary span{
         display: none;
+    }
+    .our__services-content-text{
+        max-width: calc(100% - 64px);
     }
     .our__services-content-text h3 {
         font-size: 20px;
@@ -2200,3 +2210,24 @@
     /* Footer Section End */
 }
 
+@media only screen and (min-width: 576px) and (max-width: 991px){
+    .multi-column__section .row{
+        max-width: 580px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .multi-column__section .col-sm-4{
+        width: 160px;
+    }
+}
+
+@media  only screen and (min-width: 992px){
+    .multi-column__section .row{
+        max-width: 992px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .multi-column__section .col-sm-4{
+        width: 200px;
+    }
+}
