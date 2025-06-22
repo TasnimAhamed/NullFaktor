@@ -236,7 +236,7 @@
     .multi-column__section-content p{
         font-size: 12px;
         line-height: 18px;
-        max-width: calc(100% - 160px);
+        width: calc(100% - 160px);
     }
     /* Multi Column Section End */
 
