@@ -381,6 +381,9 @@
         height: auto;
         padding: 2px;
     }
+    .our__services-content .btn--primary-sm{
+        padding: 0;
+    }
     .our__services-content .btn--primary span{
         display: none;
     }
@@ -826,6 +829,9 @@
         width: fit-content;
         height: auto;
         padding: 2px;
+    }
+    .our__services-content .btn--primary-sm{
+        padding: 0;
     }
     .our__services-content .btn--primary span{
         display: none;
