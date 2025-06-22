@@ -959,6 +959,9 @@ html{
     padding-left: 0;
     padding-right: 0;
 }
+.footer__menu .nav-item a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
 .footer__info p:not(:last-child){
     margin-bottom: 24px;
 }
