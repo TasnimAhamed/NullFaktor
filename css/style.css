@@ -695,6 +695,10 @@ html{
     padding: 4px;
     border-radius: 16px;
     height: 100%;
+    transition: all 0.2s ease-in-out;
+}
+.why__us-content-wrapper:hover{
+    background: linear-gradient(to right, #B19BF8, #6C63F3);
 }
 .why__us-content{
     background: #FCFCFC;
