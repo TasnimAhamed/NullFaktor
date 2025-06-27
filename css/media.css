@@ -51,6 +51,10 @@
         flex-direction: row-reverse;
         justify-content: flex-end;
     }
+    .send__request-btn-wrapper a .send__request-btn-icon{
+        width: 50px;
+        height: 50px;
+    }
     .mobile__menu-header{
         display: flex;
         align-items: center;
@@ -170,9 +174,9 @@
     
     .page-home .banner__image-index .banner__image-mobile{
         display: block;
-        width: 110%;
-        max-width: 120%;
-        margin-left: -4%;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 2%;
     }
     .page-pentest .banner__image-pentest .banner__image-mobile{
         display: block;
@@ -216,27 +220,26 @@
     .multi-column__section{
         padding: 40px 0;
     }
-    .multi-column__section .col-12{
-        border-bottom: 1px solid #F7F7F7;
-        padding-top: 18px;
-        padding-bottom: 18px
+    .multi-column__section .multi-column__section-row{
+        max-width: 300px;
+        margin: 0 auto;
+        
     }
-    .multi-column__section .col-12:first-child{
-        padding-top: 0;
+    .multi-column__section .multi-column__section-row .column_1{
+        max-width: 60px;
     }
-    .multi-column__section-content{
-        padding-right: 0;
-        display: flex;
-        justify-content: space-between;
+    .multi-column__section .multi-column__section-row .column_2{
+        max-width: 60px;
+    }
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 96px;
     }
     .multi-column__section-content img{
         margin-bottom: 0;
-        height: 32px;
+        height: 26px;
     }
     .multi-column__section-content p{
-        font-size: 12px;
-        line-height: 18px;
-        width: calc(100% - 160px);
+        display: none;
     }
     /* Multi Column Section End */
 
@@ -343,6 +346,9 @@
     .our__services-top-content-left, .our__services-bottom-content-left{
         border: none;
     }
+    .our__services-content-wrapper .row:not(:last-child){
+        border: none;
+    }
     .our__services-top-content-heading{
         text-align: center;
         padding: 0 16px 24px 16px;
@@ -387,11 +393,6 @@
     .our__services-content .btn--primary span{
         display: none;
     }
-    .our__services-content .btn--primary img,
-    .our__services-content .btn--primary svg{
-        width: 36px;
-        height: 36px;
-    }
     /* Our Services Section End */
 
     /* Testimonial Section Start */
@@ -415,6 +416,9 @@
     /* Why Us Section  Start */
     .why__us-section{
         padding: 40px 0;
+    }
+    .why__us-section .container--xl{
+        padding: 0;
     }
     .why__us-heading{
         margin-bottom: 32px;
@@ -516,7 +520,7 @@
     .sap__content-heading span{
         font-size: 20px;
     }
-    .sap__content-heading .author__social{
+    .sap__content-heading .author__social .insta__icon{
         position: absolute;
         top: -80px;
         right: 8px;
@@ -573,11 +577,6 @@
     .contact__form .btn--primary{
         max-width: 100%;
     }
-    .contact__form .btn--primary img,
-    .contact__form .btn--primary svg{
-        width: 36px;
-        height: 36px;
-    }
     .contact__form .form-control{
         padding: 0 20px;
         height: 50px;    
@@ -609,10 +608,21 @@
     }
     .footer__menu-area-wrapper .row{
         row-gap: 24px;
+        justify-content: space-between;
+        max-width: 260px;
+        margin: 0 auto;
     }
-    .footer__menu-area-wrapper .row .col{
-        max-width: 50%;
-        flex-basis: 50%;
+    .footer__menu-area-wrapper .row .col:first-child,
+        .footer__menu-area-wrapper .row .col:nth-child(3){
+        max-width: 120px;
+        flex-basis: 120px;
+        padding: 0;
+    }
+    .footer__menu-area-wrapper .row .col:nth-child(2),
+    .footer__menu-area-wrapper .row .col:last-child{
+        max-width: 96px;
+        flex-basis: 96px;
+        padding: 0;
     }
     /* Footer Section End */
 }
@@ -686,6 +696,16 @@
     /* Multi Column Section Start */
     .multi-column__section{
         padding: 40px 0;
+    }
+    .multi-column__section .multi-column__section-row{
+        max-width: 520px;
+        margin: 0 auto;
+        
+    }
+    .multi-column__section .multi-column__section-row .column_1,
+    .multi-column__section .multi-column__section-row .column_2,
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 124px;
     }
     .multi-column__section-content img{
         max-height: 32px;
@@ -835,11 +855,6 @@
     }
     .our__services-content .btn--primary span{
         display: none;
-    }
-    .our__services-content .btn--primary img,
-    .our__services-content .btn--primary svg{
-        width: 36px;
-        height: 36px;
     }
     /* Our Services Section End */
 
@@ -1027,11 +1042,6 @@
     .contact__form .btn--primary{
         max-width: 100%;
     }
-    .contact__form .btn--primary img,
-    .contact__form .btn--primary svg{
-        width: 36px;
-        height: 36px;
-    }
     .contact__form .form-control{
         padding: 0 20px;
         height: 50px;    
@@ -1082,10 +1092,6 @@
     .container--xl{
         max-width: 640px;
     }
-    .btn--primary img,
-    .btn--primary svg{
-        max-width: 40px;
-    }
     /* Header Area Start */
     .nav--menu .navbar-nav{
         gap: 4px;
@@ -1132,6 +1138,16 @@
     /* Multi Column Section Start*/
     .multi-column__section{
         padding: 64px 0;
+    }
+    .multi-column__section .multi-column__section-row{
+        max-width: 640px;
+        margin: 0 auto;
+        
+    }
+    .multi-column__section .multi-column__section-row .column_1,
+    .multi-column__section .multi-column__section-row .column_2,
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 132px;
     }
     .multi-column__section-content p{
         font-size: 14px;
@@ -1302,12 +1318,6 @@
     }
     .our__services-content .btn--primary span{
         display: none;
-    }
-    .our__services-content .btn--primary img,
-    .our__services-content .btn--primary svg{
-        width: 48px;
-        height: 48px;
-        max-width: 100% !important;
     }
     /* Our Services Section End */
 
@@ -1499,11 +1509,6 @@
         max-width: 800px;
     }
 
-    .btn--primary img,
-    .btn--primary svg{
-        width: 48px;
-        height: 48px;
-    }
 
     /* Header Area Start */
     .header__section{
@@ -1552,6 +1557,16 @@
     /* Multi Column Section Start*/
     .multi-column__section{
         padding: 64px 0;
+    }
+    .multi-column__section .multi-column__section-row{
+        max-width: 640px;
+        margin: 0 auto;
+        
+    }
+    .multi-column__section .multi-column__section-row .column_1,
+    .multi-column__section .multi-column__section-row .column_2,
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 132px;
     }
     .multi-column__section-content p{
         font-size: 14px;
@@ -1809,6 +1824,17 @@
     /* Banner Section End */
 
     /* Multi Column Section Start */
+    .multi-column__section .multi-column__section-row{
+        max-width: 768px;
+        margin: 0 auto;
+        
+    }
+    .multi-column__section .multi-column__section-row .column_1,
+    .multi-column__section .multi-column__section-row .column_2,
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 140px;
+        border: 1px solid red;
+    }
     .multi-column__section-content p {
         font-size: 16px;
         line-height: 24px;
@@ -2019,6 +2045,19 @@
     /* Banner Section End */
 
     /* Multi Column Section Start */
+
+    .multi-column__section .multi-column__section-row{
+        max-width: 768px;
+        margin: 0 auto;
+        
+    }
+    .multi-column__section .multi-column__section-row .column_1,
+    .multi-column__section .multi-column__section-row .column_2,
+    .multi-column__section .multi-column__section-row .column_3{
+        max-width: 140px;
+        border: 1px solid red;
+    }
+
     .multi-column__section-content p {
         font-size: 16px;
         line-height: 24px;
@@ -2188,10 +2227,6 @@
     .contact__form .btn--primary {
         max-width: 100%;
     }
-    .contact__form .btn--primary img,
-    .contact__form .btn--primary svg{
-        max-width: 40px;
-    }
     .btn--primary span {
         padding-left: 12px;
         font-size: 12px;
@@ -2227,13 +2262,10 @@
     }
 }
 
-@media  only screen and (min-width: 992px){
-    .multi-column__section .row{
+@media  only screen and (min-width: 1600px){
+    .multi-column__section .multi-column__section-row{
         max-width: 992px;
         justify-content: space-between;
         margin: 0 auto;
-    }
-    .multi-column__section .col-sm-4{
-        width: 200px;
     }
 }

@@ -59,19 +59,8 @@ html{
 .btn--primary-large{
     max-width: 260px;
 }
-.btn--primary img,
-.btn--primary svg{
-    width: 56px;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #262626;
-    transition: all 0.3s ease-in-out;
-}
-.btn--primary:hover img{
-    border-color: #6D64F4;
-}
+
+
 .btn--primary-sm img,
 .btn--primary-sm svg{
     width: 52px;
@@ -92,6 +81,28 @@ html{
 }
 .btn--primary[type="submit"]{
     border: none;
+}
+
+.btn__arrow{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 56px;
+    min-width: 48px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background: #262626;
+    border: 4px solid #262626;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.btn__arrow svg{
+    width: 20px;
+    height: auto;
+}
+.btn--primary:hover .btn__arrow{
+    border-color: #6D64F4;
 }
 /*Button Gradient*/
 .gradient-button {
@@ -175,13 +186,43 @@ html{
 .send__request-btn-wrapper a{
     color: #323232;
 }
-.send__request-btn-wrapper a img{
-    border: 2px solid #E4E4E4;
-    box-shadow: 
-    -2px 6px 11px rgba(0, 0, 0, 0.08), 
-    0px 2px 2px rgba(0, 0, 0, 0.03);
+.hamburger__icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
     border-radius: 50%;
+    border: 4px solid #262626;
+    transition: all 0.3s ease-in-out;
 }
+.hamburger__icon svg{
+    width: 12px;
+    height: auto;
+}
+.navbar-toggler:hover .hamburger__icon{
+    border-color: #6C63F3;
+}
+.send__request-btn-wrapper a .send__request-btn-icon{
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+    border-radius: 50%;
+    border: 4px solid #262626;
+    transition: all 0.3s ease-in-out;
+}
+.send__request-btn-wrapper a .send__request-btn-icon svg{
+    width: 20px;
+    height: auto;
+}
+.send__request-btn-wrapper a:hover .send__request-btn-icon{
+    border-color: #6C63F3;
+}
+
 .language__switcher{
     max-width: fit-content;
 }
@@ -322,8 +363,19 @@ html{
 .multi-column__section-content{
     width: 100%;
 }
+.multi-column__section .multi-column__section-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.multi-column__section .multi-column__section-row .column_1,
+.multi-column__section .multi-column__section-row .column_2,
+.multi-column__section .multi-column__section-row .column_3{
+    width: 100%;
+    max-width: 172px;
+}
+
 .multi-column__section-content img{
-    /* width: 100%; */
     max-width: fit-content;
     max-height: 41px;
     margin-bottom: 16px;
@@ -438,12 +490,15 @@ html{
     top: 6px;
     left: 20px;
     transform: scale(1.32);
+    z-index: 1;
 }
 .sap__consultation-content{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 .sap__consultation-content .sap__consultation-image{
     width: 100%;
@@ -687,7 +742,7 @@ html{
     max-width: calc(33.33% - 22px);
     flex-basis: calc(33.33% - 22px);
 }
-.why__us-section-content .col-12.highlight .why__us-content-wrapper{
+.why__us-content-wrapper.highlight{
     background: linear-gradient(to right, #B19BF8, #6C63F3);
 }
 .why__us-content-wrapper{
@@ -830,6 +885,27 @@ html{
 }
 .sap__content-description p:not(:last-child){
     margin-bottom: 20px;
+}
+.sap__content-heading .author__social .insta__icon{
+    border: 4px solid #262626;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #262626;
+    transition: all 0.25s ease-in-out;
+}
+.sap__content-heading .author__social .insta__icon svg{
+    width: 20px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    margin-bottom: -2px;
+}
+
+.sap__content-heading .author__social a:hover .insta__icon{
+    border-color: #6D64F4;
 }
 /* SAP Section End */
 
